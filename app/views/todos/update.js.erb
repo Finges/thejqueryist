@@ -1,0 +1,2 @@
+$('#edit_todo_<%= @todo.id %>').remove();
+$('#<%= @todo.id %>').replaceWith('<%= j render(@todo) %>');
