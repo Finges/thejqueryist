@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
+//= require foundation
 $(document).ajaxError((event,xhr,settings,exception) ->
     alert xhr.responseText
     )
